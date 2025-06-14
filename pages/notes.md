@@ -4,6 +4,7 @@ title: "课程笔记"
 permalink: /notes/
 classes: wide
 toc: true
+author_profile: true
 ---
 
 以下是本人整理的课程笔记，仅作个人存留使用：
