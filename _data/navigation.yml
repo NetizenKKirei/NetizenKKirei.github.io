@@ -5,6 +5,6 @@ main:
   - title: "关于我"
     url: /about/
   - title: "课程笔记"
-    url: /notes/
+    url: /categories/notes/
   - title: "随记"
     url: /categories/随记/
