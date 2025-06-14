@@ -4,7 +4,7 @@ main:
     url: /
   - title: "关于我"
     url: /about/
-  - title: "想法"
-    url: /categories/想法/
+  - title: "课程笔记"
+    url: /_notes/
   - title: "随记"
     url: /categories/随记/
