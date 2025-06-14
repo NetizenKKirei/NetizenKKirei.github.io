@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "首页"
+  - title: "Home"
     url: /
-  - title: "关于我"
+  - title: "About me"
     url: /about/
-  - title: "课程笔记"
+  - title: "Notes"
     url: /notes/
-  - title: "随记"
+  - title: "Posts"
     url: /posts/
