@@ -324,3 +324,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+
+  posts:
+    output: true
+    permalink: /posts/:path/
