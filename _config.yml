@@ -116,7 +116,7 @@ author:
   name             : "KKirei"
   avatar           : /assets/images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A person who is **temporarily** alive."
-  location         : "Beijing China"
+  location         : "Beijing,China"
   email            : "kzkzkcc@stu.pku.edu.cn"
   links:
     - label: "Email"
