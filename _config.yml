@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "KKirei"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A person who is **temporarily** alive."
   location         : "Beijing China"
   email            : "kzkzkcc@stu.pku.edu.cn"
