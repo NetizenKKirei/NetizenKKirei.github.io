@@ -11,7 +11,7 @@ toc: true
 ***
   *一个内耗青年的碎碎念*
 
-[创世纪](/posts/Test/)    *此人第一篇博客*
+[创世纪](/posts/Test/)    *And I said,and there was this site.*
 
 - # 想法
 ***
