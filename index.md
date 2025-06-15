@@ -9,7 +9,7 @@ header:
   actions:
     - label: "了解更多"
       url: "/about/"
-excerpt: "这里是一个意义不明的网站"
+excerpt: "这是一个意义不明的网站"
 intro:
   - excerpt: "网友KKirei的个人空间，用于记录此人的学习与思考。"
 ---
