@@ -8,10 +8,4 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-body.homepage {
-  background-image: url('/assets/splash/alice-by-sea.jpg');
-  background-size: cover;        // 让图片填充整个背景
-  background-position: center;   // 居中显示
-  background-repeat: no-repeat;  // 不重复
-  min-height: 100vh;             // 至少占满整个视口高度
-}
+
