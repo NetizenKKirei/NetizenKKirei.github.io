@@ -8,8 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// === 以下为自定义样式，仅作用于首页 Splash 布局 ===
-
 .layout--splash .page__hero {
   position: fixed;
   top: 0;
