@@ -43,12 +43,22 @@ intro:
   text-shadow: 1px 1px 3px rgba(0,0,0,0.8) !important;
 }
 
-/* ====== 内容区域 ====== */
+/* ====== 内容区域调整 ====== */
 .page-content {
   position: relative !important;
   z-index: 5 !important;
   background: transparent !important;
-  margin-top: 100vh !important;
+}
+
+/* 确保主要内容在背景图上 */
+.page-content .wrapper {
+  background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 20vh; /* 从背景图顶部开始的位置 */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ====== 背景遮罩层 ====== */
@@ -60,6 +70,16 @@ intro:
   height: 100% !important;
   background: rgba(0,0,0,0.4) !important;
   z-index: 1 !important;
+}
+
+/* ====== 页脚修复 ====== */
+.site-footer {
+  position: relative;
+  z-index: 5;
+  background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 </style>
 
