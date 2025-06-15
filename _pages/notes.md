@@ -4,6 +4,7 @@ title: "Notes"
 permalink: /notes/
 classes: wide
 toc: true
+author_profile: true
 ---
 
 # 使用须知
