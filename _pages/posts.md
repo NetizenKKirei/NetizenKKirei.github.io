@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "随记"
+title: "Posts"
 permalink: /posts/
 classes: wide
 toc: true
