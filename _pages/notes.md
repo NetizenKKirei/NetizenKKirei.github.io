@@ -12,6 +12,6 @@ toc: true
 ***
 
 ## 公共基础课程
- - [计算概论(B)](/notes/introduction-to-computation(B)/)
- - [高等数学(A)](url)
+ - [计算概论(B)](/notes/introduction-to-computation(B)/)*数学科学学院 甘锐*
+ - [高等数学(A)](url)*数学科学学院 黄得*
 
