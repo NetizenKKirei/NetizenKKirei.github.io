@@ -7,20 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-body.layout-splash {
-  background-image: url('/assets/splash/alice-by-sea.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  /* 可选：如有 overlay 效果，建议加半透明遮罩，可仿照主题的 overlay_filter */
-}
-body.layout-splash:before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  background: rgba(0,0,0,0.5); /* 根据 overlay_filter 调整透明度 */
-  pointer-events: none;
-}
