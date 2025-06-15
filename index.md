@@ -9,8 +9,8 @@ header:
   actions:
     - label: "关于我"
       url: "/about/"
-excerpt: "欢迎"
+excerpt: ""
 intro:
-  - excerpt: "这里是网友KKirei的个人空间，用于记录我的学习与思考。"
+  - excerpt: "欢迎，这里是网友KKirei的个人空间，用于记录我的学习与思考。"
 ---
-
+{% include feature_row id="intro" type="center" %}
