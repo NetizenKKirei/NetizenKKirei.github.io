@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "课程笔记"
+title: "Notes"
 permalink: /notes/
 classes: wide
 toc: true
