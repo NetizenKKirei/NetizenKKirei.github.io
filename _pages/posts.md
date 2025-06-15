@@ -4,6 +4,7 @@ title: "Posts"
 permalink: /posts/
 classes: wide
 toc: true
+author_profile: true
 ---
 
 - # 闲谈
