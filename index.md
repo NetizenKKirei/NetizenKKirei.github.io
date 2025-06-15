@@ -5,7 +5,7 @@ title: "网友KKirei的个人空间"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/splash/lucy-in-space.jpg
+  overlay_image: /assets/splash/lucy-in-space(1).jpg
   actions:
     - label: "关于我"
       url: "/about/"
