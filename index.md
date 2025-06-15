@@ -12,4 +12,25 @@ header:
 excerpt: "欢迎"
 intro:
   - excerpt: "这里是网友KKirei的个人空间，用于记录我的学习与思考。"
+feature_row:
+  - image_path: /assets/splash/feat1.jpg
+    title: "项目一"
+    excerpt: "项目一简介。"
+    url: "/projects/one"
+    btn_label: "查看"
+    btn_class: "btn--primary"
+  - image_path: /assets/splash/feat2.jpg
+    title: "项目二"
+    excerpt: "项目二简介。"
+    url: "/projects/two"
+    btn_label: "查看"
+    btn_class: "btn--primary"
+  - image_path: /assets/splash/feat3.jpg
+    title: "联系方式"
+    excerpt: "欢迎与我联系！"
+    url: "/contact/"
+    btn_label: "联系我"
+    btn_class: "btn--secondary"
 ---
+
+{% include feature_row id="intro" type="center" %}
