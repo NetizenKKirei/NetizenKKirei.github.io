@@ -1,36 +1,17 @@
 ---
 layout: splash
 permalink: /
-title: "网友KKirei的个人空间"
+title: "欢迎"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/splash/alice-by-sea.jpg
   actions:
-    - label: "关于我"
+    - label: "了解更多"
       url: "/about/"
-excerpt: "欢迎"
+excerpt: "这里是一个意义不明的网站"
 intro:
-  - excerpt: "这里是网友KKirei的个人空间，用于记录我的学习与思考。"
-feature_row:
-  - image_path: /assets/splash/lucy-in-space(1).jpg
-    title: "项目一"
-    excerpt: "项目一简介。"
-    url: "/projects/one"
-    btn_label: "查看"
-    btn_class: "btn--primary"
-  - image_path: /assets/splash/type-moon-four-heroines.jpg
-    title: "项目二"
-    excerpt: "项目二简介。"
-    url: "/projects/two"
-    btn_label: "查看"
-    btn_class: "btn--primary"
-  - image_path: /assets/splash/alce-with-robin.jpg
-    title: "联系方式"
-    excerpt: "欢迎与我联系！"
-    url: "/contact/"
-    btn_label: "联系我"
-    btn_class: "btn--secondary"
+  - excerpt: "网友KKirei的个人空间，用于记录此人的学习与思考。"
 ---
 
 {% include feature_row id="intro" type="center" %}
