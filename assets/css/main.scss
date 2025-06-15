@@ -7,24 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-.layout--splash .page__hero {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover !important;
-  background-position: center center !important;
-  z-index: -1;
-}
-
-.layout--splash .page {
-  position: relative;
-  z-index: 0;
-  padding-top: var(--masthead-height);
-}
-
-.masthead {
-  background-color: transparent !important;
-}
