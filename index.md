@@ -6,6 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/splash/alice-by-sea.jpg
+  overlay_html: '<div class="bg-overlay"></div>' # 添加遮罩层
   actions:
     - label: "关于我"
       url: "/about/"
