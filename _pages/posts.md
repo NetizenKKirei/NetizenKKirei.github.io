@@ -12,7 +12,7 @@ author_profile: true
 ***
   *一个内耗青年的碎碎念*
 
-[创世纪](/posts/Test/)    *And I said,and there was this site.*
+[创世纪](/posts/Genesis.md)    *And I said,and there was this site.*
 
 - # 想法
 ***
