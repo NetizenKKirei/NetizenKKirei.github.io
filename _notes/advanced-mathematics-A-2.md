@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "高等数学A(Ⅱ)"
+classes: wide
 permalink: /notes/advanced-mathematics-A-2/
 ---
 # SMS必吃榜之二

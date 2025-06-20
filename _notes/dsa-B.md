@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "数据结构与算法B"
+classes: wide
 permalink: /notes/dsa-B/
 ---
 # 编程进阶课程

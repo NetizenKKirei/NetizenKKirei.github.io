@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "计算概论B"
+classes: wide
 permalink: /notes/introduction-to-computation(B)/
 ---
 # 计算机基础入门课
