@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "高等数学A(Ⅰ)"
+classes: wide
 permalink: /notes/advanced-mathematics-A-1/
+author_profile: true
 ---
 # SMS必吃榜之一
 

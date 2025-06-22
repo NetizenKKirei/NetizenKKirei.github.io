@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "线性代数B"
+classes: wide
 permalink: /notes/linear-algebra-B/
+author_profile: true
 ---
 # SMS必吃榜之2.5
 
