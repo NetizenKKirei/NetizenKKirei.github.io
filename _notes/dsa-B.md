@@ -25,4 +25,4 @@ author_profile: true
 
 ## 资料
 - [syc班课件](url)
-- [阎宏飞的github主页]([url](https://github.com/GMyhf)) *这里有yhf老师的高质量课程资料以及笔试往年题*
+- [阎宏飞的github主页](https://github.com/GMyhf) *这里有yhf老师的高质量课程资料以及笔试往年题*
