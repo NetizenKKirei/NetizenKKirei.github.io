@@ -1,0 +1,80 @@
+- class_name: 技术支持
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单的博客框架
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://img.heliar.top/file/1771932031029_butterfly-icon.png
+      descr: 个性化的Hexo主题
+
+- class_name: 实用工具
+  link_list:
+    - name: cobalt
+      link: https://cobalt.tools/
+      avatar: https://img.heliar.top/file/1771931737826_image.png
+      descr: 下载工具
+    - name: Heliar
+      link: https://img.heliar.top/
+      avatar: https://img.heliar.top/logo.png
+      descr: 免费免登录图床
+    - name: Pixivz
+      link: https://pixiviz.pwp.app/
+      avatar: https://pixiviz.pwp.app/favicon.png
+      descr: p站搜图工具
+    - name: favicon.run
+      link: https://favicon.run/favicon-fetcher
+      avatar: https://favicon.run/favicon.ico
+      descr: Favicon提取器
+    - name: favicon.run
+      link: https://fontawesome.com/
+      avatar: https://fontawesome.com/images/favicon/icon.svg
+      descr: 知名网页图标库
+
+- class_name: 资源站
+  link_list:
+    - name: Z-Library
+      link: https://zh.fuckfbi.ru/
+      avatar: https://img.heliar.top/file/1771934154789_image.png
+      descr: 电子图书馆
+    - name: owlook
+      link: https://owlook.com.cn/
+      avatar: https://favicon.run/favicon?domain=owlook.com.cn&sz=32
+      descr: 网络小说搜索引擎
+    - name: girigirilove
+      link: https://anime.girigirilove.icu/
+      avatar: https://favicon.run/favicon?domain=anime.girigirilove.icu&sz=48
+      descr: 番剧网站
+    - name: 奈飞工厂
+      link: https://www.netflixgc.com/
+      avatar: https://favicon.run/favicon?domain=www.netflixgc.com&sz=48
+      descr: 影视资源网
+    - name: 动漫导航
+      link: https://dongmandaohang.sodanav.com/
+      avatar: https://dongmandaohang.sodanav.com/./files/logo.png
+      descr: 各类动漫资源导航站
+    
+
+- class_name: 友情链接
+  link_list:
+    - name: 课程测评@PKU
+      link: https://courses.pinzhixiaoyuan.com/
+      avatar: https://courses.pinzhixiaoyuan.com/logo192.png
+      descr: PKU非官方课程测评
+    - name: P-Lib
+      link: https://e.pkuhub.cn/
+      avatar: https://e.pkuhub.cn/static/favicon-dark.ico
+      descr: PKU学习资源共享平台
+
+- class_name: 社交媒体
+  link_list:
+    - name: bilibili
+      link: https://www.bilibili.com/
+      avatar: https://www.bilibili.com/favicon.ico
+      descr: 视频网站
+    - name: 小红书
+      link: https://www.xiaohongshu.com/explore
+      avatar: https://www.xiaohongshu.com/favicon.ico
+      descr: 社交分享平台
+
