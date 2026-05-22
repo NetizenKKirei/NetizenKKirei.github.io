@@ -1,0 +1,53 @@
+name: Deploy to PKU Cloud
+
+on:
+  push:
+    branches: [hexo]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Hide private posts
+        run: |
+          node -e "
+          const fs = require('fs');
+          const keep = '2026-02-25-create-blog.md';
+          const posts = fs.readdirSync('source/_posts').filter(f => f.endsWith('.md') && f !== keep);
+          posts.forEach(f => {
+            const p = 'source/_posts/' + f;
+            let c = fs.readFileSync(p, 'utf8');
+            c = '---\npublished: false\n' + c.slice(c.indexOf('---', 1));
+            fs.writeFileSync(p, c);
+            console.log('Hid:', f);
+          });
+          console.log('Kept:', keep);
+          "
+
+      - name: Generate static site
+        run: npx hexo generate
+
+      - name: Deploy to PKU Cloud
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.PKU_CLOUD_HOST }}
+          username: ${{ secrets.PKU_CLOUD_USERNAME }}
+          key: ${{ secrets.PKU_CLOUD_KEY }}
+          port: ${{ secrets.PKU_CLOUD_PORT }}
+          source: "public/*"
+          target: ${{ secrets.PKU_CLOUD_PATH }}
+          strip_components: 1
+          rm: true
