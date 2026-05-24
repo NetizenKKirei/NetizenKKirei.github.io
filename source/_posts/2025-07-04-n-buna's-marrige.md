@@ -2,6 +2,10 @@
 title: 沉溺于夏日
 date: 2025-07-04 21:31:46
 categories: 随笔
+tags:
+  - 音乐
+  - ヨルシカ
+description: 写在 n-buna 结婚与夏日音乐之后的一段随想。
 cover: http://p1.music.126.net/Mq_zDG7_BAGrctiWGesj2g==/109951171467601226.jpg
 aplayer: true
 ---

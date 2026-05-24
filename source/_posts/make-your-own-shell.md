@@ -2,7 +2,13 @@
 title: 为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享
 date: 2026-05-24
 categories: 技术分享
-cover: post-img/shell_cover.png
+tags:
+  - macOS
+  - 终端
+  - Fish
+  - Starship
+description: Ghostty、Fish、Starship 与常用工具的 macOS 终端配置分享。
+cover: /post-img/shell_cover.png
 ---
 
 

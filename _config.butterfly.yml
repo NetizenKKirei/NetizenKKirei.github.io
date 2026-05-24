@@ -23,10 +23,11 @@ menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
   清单||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     旅行: /tour/ || fas fa-sharp fa-solid fa-map-location-dot
-    动画: /anima/ || fas fa-solid fa-camera-movie
+    观影: /movie/ || fas fa-solid fa-camera-movie
   友链: /link/ || fas fa-link
 
 # --------------------------------------
@@ -303,36 +304,34 @@ footer:
   nav:
   - width:
     content:
-      - title: 文档
+      - title: 站内
         item:
-          - title: 🚀 快速开始
-            url: /posts/21cfbf15/
-          - title: 📑 主题页面
-            url: /posts/dc584b87/
-          - title: 📌 主题配置
-            url: /posts/4aa8abbe/
-          - title: ⚔️ 标签外挂
-            url: /posts/ceeb73f/
-          - title: ❓ 主题问答
-            url: /posts/98d20436/
-          - title: ⚡️ 进阶教程
-            url: /posts/4073eda/
+          - title: 首页
+            url: /
+          - title: 时间轴
+            url: /archives/
+          - title: 分类
+            url: /categories/
+          - title: 标签
+            url: /tags/
   - content:
-    - title: 其他
+    - title: 清单
       item:
-        - title: 图库
-          url: /Gallery/
-        - title: 留言板
-          url: /messageboard/
-        - title: 说说
-          url: /talking/
-        - title: 示例
-          url: /link/
+        - title: 音乐
+          url: /music/
+        - title: 旅行
+          url: /tour/
+        - title: 观影
+          url: /movie/
         - title: 友链
-          url: /links/
+          url: /link/
   - content:
-    - title: 框架
+    - title: 链接
       item:
+        - title: GitHub
+          url: https://github.com/NetizenKKirei
+        - title: Bilibili
+          url: https://space.bilibili.com/350295916
         - title: Hexo
           url: https://hexo.io/zh-cn/
         - title: Butterfly
@@ -384,7 +383,7 @@ aside:
     # 是否显示作者信息卡片
     enable: true
     # 作者描述
-    description:
+    description: 记录生活、阅读、音乐与技术折腾
     button:
     # 是否显示按钮
       enable: true
@@ -393,12 +392,12 @@ aside:
       # 按钮文本
       text: Follow Me
       # 按钮链接
-      link: https://github.com/xxxxxx
+      link: https://github.com/NetizenKKirei
   card_announcement:
   # 是否显示公告卡片
     enable: true
     # 公告内容
-    content: This is my Blog
+    content: 欢迎来到 KKirei 的个人博客。
   card_recent_post:
   # 是否显示最近文章卡片
     enable: true
@@ -427,7 +426,7 @@ aside:
     sort_order:
   card_tags:
   # 是否显示标签卡片
-    enable: false
+    enable: true
     # 显示标签数量，0 表示显示所有
     limit: 40
     # 是否启用颜色
@@ -603,7 +602,7 @@ math:
 search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
-  use: docsearch
+  use:
   placeholder: 搜索文章标题或内容
 
   # Algolia 搜索
@@ -967,7 +966,7 @@ site_verification:
 # 选择：index - 与主页 UI 相同 / default - 与归档 UI 相同
 # 留空或设置为 index
 category_ui:
-tag_ui:
+tag_ui: index
 
 # 拉伸行使每行宽度相等
 text_align_justify: false
@@ -992,7 +991,7 @@ preloader:
 enter_transitions: true
 
 # 默认显示模式 - light (默认) / dark
-display_mode: light
+display_mode: dark
 
 # 美化文章内容的配置
 beautify:
@@ -1214,7 +1213,7 @@ snackbar:
   # 是否启用 Snackbar
   enable: true
   # 通知位置
-  position: bottome-center
+  position: bottom-center
   # 浅色模式和深色模式下的通知背景颜色
   bg_light: '#49b1f5'
   bg_dark: '#1f1f1f'
@@ -1281,6 +1280,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+    - <script>!function(){function cleanup(){document.querySelectorAll('.snackbar-container').forEach(function(el){el.style.opacity='0';el.style.pointerEvents='none';setTimeout(function(){el.remove()},350)})}function patch(){if(!window.btf||typeof window.btf.snackbarShow!=='function')return false;var original=window.btf.snackbarShow;window.btf.snackbarShow=function(text,showAction,duration){var timeout=Number(duration)||2000;original.call(this,text,showAction,duration);clearTimeout(window.__snackbarCleanupTimer);window.__snackbarCleanupTimer=setTimeout(cleanup,timeout+500)};return true}if(!patch())document.addEventListener('DOMContentLoaded',patch,{once:true})}();</script>
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置

@@ -2,6 +2,10 @@
 title: 北漂日记
 date: 2025-08-16 15:26:33
 categories: 随笔
+tags:
+  - 旅行
+  - 北京
+description: 一个周末逃离学校后，对北京和独处时间的记录。
 cover: /post-img/those-three.jpg
 ---
 

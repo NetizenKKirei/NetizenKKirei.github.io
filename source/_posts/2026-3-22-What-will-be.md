@@ -1,10 +1,13 @@
 ---
 title: What‘s going on
-date: today
+date: 2026-03-22 00:00:00
 categories: 随笔
+tags:
+  - 学业
+  - 跑步
 description: 开学三周随便记
-cover:
-top_img: 
+cover: /img/default_cover.jpg
+top_img: /img/default_cover.jpg
 published: false
 ---
 
