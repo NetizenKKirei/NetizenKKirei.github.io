@@ -80,7 +80,7 @@ deploy:
 2. 依此执行以下命令
 ```bash
 hexo clean
-hexo g
+hexo g # 可选，在本地生成静态网页预览
 hexo d
 ```
 3. 待推送完毕后等待1-2分钟，即可通过`你的GitHub用户名.github.io`访问你搭建好的个人博客。
