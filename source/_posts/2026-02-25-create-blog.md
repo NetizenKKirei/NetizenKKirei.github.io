@@ -5,7 +5,7 @@ categories: 技术分享
 tags:
   - Hexo
   - GitHub Pages
-description: 使用 Hexo、GitHub Pages 和 Butterfly 搭建个人博客的入门记录。
+description: 使用 Hexo、GitHub Pages 和 Butterfly 搭建个人博客的入门记录
 cover: https://img.heliar.top/file/1771991858690_36b90cc6f7ca133e0995d531e7046ad4.jpg
 top_img: https://img.heliar.top/file/1771991871311_c38f393f68bd30c7982a10afbd7d2134.jpg
 ---

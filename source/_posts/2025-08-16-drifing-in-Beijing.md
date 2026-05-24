@@ -5,7 +5,7 @@ categories: 随笔
 tags:
   - 旅行
   - 北京
-description: 一个周末逃离学校后，对北京和独处时间的记录。
+description: 学校逃离日记
 cover: /post-img/those-three.jpg
 ---
 

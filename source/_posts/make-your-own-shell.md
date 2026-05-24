@@ -7,7 +7,7 @@ tags:
   - 终端
   - Fish
   - Starship
-description: Ghostty、Fish、Starship 与常用工具的 macOS 终端配置分享。
+description: macOS 终端配置分享
 cover: /post-img/shell_cover.png
 ---
 

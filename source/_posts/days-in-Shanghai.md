@@ -5,7 +5,7 @@ categories: 随笔
 tags:
   - 旅行
   - 上海
-description: 在上海 citywalk 的旅行记录，以及关于城市气质与旧友重逢的随想。
+description: 在上海 citywalk 的旅行记录
 cover: /post-img/Hengshan_Wanping_Road.png
 ---
 ## 心中上海
