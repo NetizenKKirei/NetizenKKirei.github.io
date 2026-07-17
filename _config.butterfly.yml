@@ -383,7 +383,7 @@ aside:
     # 是否显示作者信息卡片
     enable: true
     # 作者描述
-    description: 生活、旅行与折腾  经常煽情，偶尔技术
+    description: 听点音乐，看点片子，煽点小情<br>
     button:
     # 是否显示按钮
       enable: true

@@ -1,7 +1,7 @@
 ---
 title: 沪漂日记
 date: 2026-05-02 22:17:18
-categories: 随笔
+categories: 游记
 tags:
   - 旅行
   - 上海
