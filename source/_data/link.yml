@@ -27,10 +27,14 @@
       link: https://favicon.run/favicon-fetcher
       avatar: https://favicon.run/favicon.ico
       descr: Favicon提取器
-    - name: favicon.run
+    - name: FontAwesome
       link: https://fontawesome.com/
       avatar: https://fontawesome.com/images/favicon/icon.svg
       descr: 知名网页图标库
+    - name: favicon.run
+      link: https://zh.ifixit.com/
+      avatar: https://assets.cdn.ifixit.com/static/icons/ifixit/favicon-96x96.png
+      descr: 维修指南
 
 - class_name: 资源站
   link_list:

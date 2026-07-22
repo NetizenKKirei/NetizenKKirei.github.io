@@ -383,7 +383,7 @@ aside:
     # 是否显示作者信息卡片
     enable: true
     # 作者描述
-    description: 理想是变成一个拉风的装b犯
+    description: Something for nothing
     button:
     # 是否显示按钮
       enable: true
