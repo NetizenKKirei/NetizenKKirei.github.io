@@ -1,0 +1,243 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>NetizenKKirei's Site - KKirei的数字自留地</title><meta name="author" content="KKirei"><meta name="copyright" content="KKirei"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="KKirei 的个人博客，记录随笔、旅行、读书观影、音乐与技术分享。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NetizenKKirei&#39;s Site">
+<meta property="og:url" content="https://netizenkkirei.github.io/index.html">
+<meta property="og:site_name" content="NetizenKKirei&#39;s Site">
+<meta property="og:description" content="KKirei 的个人博客，记录随笔、旅行、读书观影、音乐与技术分享。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://netizenkkirei.github.io/img/avatar.png">
+<meta property="article:author" content="KKirei">
+<meta property="article:tag" content="KKirei, Hexo, Butterfly, 个人博客, 随笔, 技术分享, 旅行, 音乐">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://netizenkkirei.github.io/img/avatar.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "NetizenKKirei's Site",
+  "alternateName": [
+    "KKirei的数字自留地",
+    "netizenkkirei.github.io"
+  ],
+  "url": "https://netizenkkirei.github.io/"
+}</script><link rel="shortcut icon" href="/img/favicon.jpg"><link rel="canonical" href="https://netizenkkirei.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'NetizenKKirei\'s Site',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/alice1.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/tour/"><i class="fa-fw fas fa-sharp fa-solid fa-map-location-dot"></i><span> 旅行</span></a></li><li><a class="site-page child" href="/movie/"><i class="fa-fw fas fa-solid fa-camera-movie"></i><span> 观影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/img/alice2.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">NetizenKKirei's Site</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/tour/"><i class="fa-fw fas fa-sharp fa-solid fa-map-location-dot"></i><span> 旅行</span></a></li><li><a class="site-page child" href="/movie/"><i class="fa-fw fas fa-solid fa-camera-movie"></i><span> 观影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">NetizenKKirei's Site</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/NetizenKKirei" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kzkzkcc@stu.pku.edu.cn" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/350295916" target="_blank" title="bilibili"><i class="fa-brands fa-bilibili"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="post_cover left"><a href="/2026/07/23/20th/" title="生日蛋糕就是青春的墓碑"><img class="post-bg" src="/post-img/birthday.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="生日蛋糕就是青春的墓碑"></a></div><div class="recent-post-info"><a class="article-title" href="/2026/07/23/20th/" title="生日蛋糕就是青春的墓碑">生日蛋糕就是青春的墓碑</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-07-23T16:13:08.698Z" title="发表于 2026-07-24 00:13:08">2026-07-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">这可能是我有史以来最不想度过的一个生日。 主播的二十大寿来得如此突然，让人有些无所适从。一方面是生日之后只剩两天就要离开温暖的狗窝出国的紧张，另一方面是面对自己2开头年龄的彷徨；我居然已经是个20岁的大人了么？很显然主播对于这件事还没做好准备。想当年主播还是个流着鼻涕在堂哥房间玩赛车游戏的小屁孩时，觉得20岁就应该是个威风凛凛的大哥大了，在社会和学校都有头有脸，是个吃得开的大人物，再不济也能在小屁孩面前挥斥方遒。反观现在，且不提此人已经在学校里美美隐身，就算碰到小屁孩估计也要被嘲笑一番是个欠社会化的大哥哥。真是白驹过隙一眨眼啊，唯一有进展的大概是成为猥琐大叔的进程吧，实乃可喜可贺。要是碇真嗣看见我估计都能跟他爹和解之后对着我边鼓掌边说おめでとう吧…… 纵览主播波澜壮阔的人生，从小就展现出异于常人的洞察力，虽然经常会羡慕大人的拉风，但已经敏锐地意识到这个社会赐给小屁孩的丹书铁券来之不易，所以在上了小学之后就再没喊过诸如我要快点长大之类的屁话（PS：除了堪比编故事的语文作文）；待到中学又开始徜徉于做题的海洋，倒也算自得其乐，在被老中教育折磨得苦不堪言时，我都是通过忆往昔而绝非展未来来...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2026/06/15/%E7%94%9F%E6%B4%BB%E6%89%8D%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E5%8A%A1/" title="Life it is."><img class="post-bg" src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Life it is."></a></div><div class="recent-post-info"><a class="article-title" href="/2026/06/15/%E7%94%9F%E6%B4%BB%E6%89%8D%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E5%8A%A1/" title="Life it is.">Life it is.</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-06-15T16:00:00.000Z" title="发表于 2026-06-16 00:00:00">2026-06-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">2026年6月16日，天气阴。今天是考试周的第二天，而我的期末已经将近结束，正在享受在学校难得的悠闲时光。我睡到自然醒，收尾了之前基本就完成的任务，打了一会儿游戏，之后下楼去吃午饭。 事情告一段落，终于有心情看一看平时没空看的长视频。比如Vlog-搬出我住了三年的宿舍 这个视频充满一种我难以言喻却又喜欢的氛围感，可能来自于DV机的拍摄画面，也可能是房间的布置，或者主人说话的腔调。逼仄又杂乱的的宿舍里到处散落着温馨的安全感，仿佛透过微微褪色的画面，窥见了与当下我处在的现实不同的另一种生活。这种古老的、传统的生活感令我无限迷醉。 Vlog这种东西给我一个观察别人生活的视角，去感受自己对待生活的态度和方式跟别人有什么不同。一说到搬家，我的第一反应就是好麻烦哦，长期在一个地方呆着的安定感让我总是抗拒变动，就像大二开学去换宿舍的时候，尽管已经被原本室友折磨得不轻，但换宿舍这个决定我还是内耗了很久很久，如果不是转专业这个契机可能我现在还在天天抱怨神人上铺吧。视频里有一个晚上去新家搞卫生的画面。对我来说，带上大桶小桶的工具跑一大段路去搞卫生是个很需要能量的事情，更别说还是在搬家劳累了一整个白天...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2026/05/23/make-your-own-shell/" title="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享"><img class="post-bg" src="/post-img/shell_cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享"></a></div><div class="recent-post-info"><a class="article-title" href="/2026/05/23/make-your-own-shell/" title="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享">为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-05-23T16:00:00.000Z" title="发表于 2026-05-24 00:00:00">2026-05-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a></span></div><div class="content">为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享 前段时间不堪忍受天天背着死重的游戏本和电源跑来跑去，加上开始越来越频繁地接触 Linux ，也想试试macOS这种类Unix系统，怒而购入 macbook air，到手之后惊为天人。要不是还要玩游戏我都想把原来那台 win本砸了😠   最直观的感受就是轻便和强大的续航，不用再被插座绑架，曾经的我还对“生产力”一词嗤之以鼻，现在发现能随时随地开盖干活就有被爽到（什）！ 另外简洁的文件管理和清晰的环境配置也深得我心，不用像 windows 一样在一大坨乱七八糟的文件里翻垃圾真是太好了。一想到 win 里面我自己都记不住的文件路径以及史一般难用的 cmd 和poweshell 就没有打开的欲望，简而言之我已成为🍎孝子！  前言本人高频率用终端的时间其实并不长，之前也用过 zsh + oh my zsh 的搭配，但是这一套太重了，omz启动要加载一大堆插件，对我来说这带来的卡顿严重影响了使用体验，遂没用多久就放弃了。现在这套搭配是在冲浪的时候刷到的，研究了一下发现很匹配我自己的需求，主要是以...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2026/05/02/days-in-Shanghai/" title="沪漂日记"><img class="post-bg" src="/post-img/Hengshan_Wanping_Road.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沪漂日记"></a></div><div class="recent-post-info"><a class="article-title" href="/2026/05/02/days-in-Shanghai/" title="沪漂日记">沪漂日记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-05-02T14:17:18.000Z" title="发表于 2026-05-02 22:17:18">2026-05-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B8%B8%E8%AE%B0/">游记</a></span></div><div class="content">心中上海这是一篇在上海的游记，之所以把标题起成“沪漂日记”，一个是为了和之前写的《北漂日记》对应，另一个是我觉得“漂”这个字很能描述我在上海的感受，我可以随波逐流、漫无目的地晃到随便哪个地方。我不去做任何思考，静静地看着这个城市将我的双脚带向某个角落。相比之下，北京所谓的“漂”，倒不如形容为溺水更加贴切，被那个毫无活力的城市压在水面之下，几乎没有喘息的空间。 还是不聊这个令人扫兴的话题，说回这次来旅游吧。这次来上海真的是纯citywalk，也没去浦东外滩静安寺之类的经典，就在徐汇、长宁、闵行这一片瞎逛，以致于看见了一个比较特别的、生活化的上海。魔都当然无愧于经济中心的称号，沿着渤海中路走过去是一片又一片数不尽的商圈，各种奢侈品大牌应有尽有，路上不断刷新的豪车，提着廉价连锁咖啡都有些不好意思进去的主理人店铺都无时无刻不在提醒着你，这里是全中国汇聚财富最多的地方。但于此同时，作为一个城市，一个实实在在地承载着数千万人口的生存的空间，上海不只有，也不应只有流于表象的浮华。在我眼里，上海是一个特别“有生活”的城市。 从地铁10号线交通大学站出来，是上交的徐汇校区。再沿着华山路向南走，不远...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2026/02/25/2026-02-25-create-blog/" title="Hexo➕github pages 的个人博客建站教程"><img class="post-bg" src="https://img.heliar.top/file/1771991858690_36b90cc6f7ca133e0995d531e7046ad4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo➕github pages 的个人博客建站教程"></a></div><div class="recent-post-info"><a class="article-title" href="/2026/02/25/2026-02-25-create-blog/" title="Hexo➕github pages 的个人博客建站教程">Hexo➕github pages 的个人博客建站教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-02-25T03:52:02.000Z" title="发表于 2026-02-25 11:52:02">2026-02-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a></span></div><div class="content">软件与本地环境Scoop - 命令行式的 Windows 软件安装工具Scoop 是 Windows 平台的命令行包管理器，能通过简单的命令快速实现软件的安装、更新、卸载和环境变量的配置，这里我使用的是gitee上的国内纯净镜像源。给出的链接有详细的步骤指引，对于本教程而言，只需执行到下方命令即可。 1scoop config use_sqlite_cache  Node.js在已经安装并配置好scoop的前提下，在命令行执行 1scoop search nodejs  一般会返回多个版本的软件，复制其中带有 lts（即长线支持版）的版本名称，并执行 1scoop install nodejs 此时软件将被下载到scoop安装目录的子目录下。 其他除上述软件外，还需要使用到 VsCode 和 git ，可参考网络其他教程进行基础配置。 搭建本地网站安装hexo 桌面右键，点击 Open Git Bash here 在打开的命令行界面输入  1npm install -g hexo-cli  建站 选择一个自己记得住的路径，新建文件夹，这就是个人博客的本地目录 选择文件夹，右键打开...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2026/02/24/2026-02-24-hello-world/" title="Hello World"><img class="post-bg" src="https://img.heliar.top/file/1771935101084_屏幕截图_2024-09-25_230023.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2026/02/24/2026-02-24-hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-02-24T04:00:00.000Z" title="发表于 2026-02-24 12:00:00">2026-02-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content"> 本文是此站建成后第一篇博文，早于本篇的内容均搬运自站主旧博客  事实上这已经不是主播第一次搭个人博客了，以前就用github用别人的项目建过一次。当时随便拉了一个仓库到本地自己捣鼓，因为根本没接触过开发加上项目里面缺乏我能看得懂的指引，只能一边问ai一边摸索，用了很多把原仓库功能覆盖掉的方案，最终的成品可谓非常之丑陋，也浪费了很多功能。不过也写了一些东西放在上面，在一段比较黑暗的时间里还是成为了不错的宣泄。 然后寒假在你b上刷到了这条视频 成为冻鳗糕手第一步？教你零基础搭建属于自己的个人博客！丨Hexo建站经验分享 ，我的想法只有一个：我趣，这冻鳗糕手我必须当啊，于是当起了船新博客的赛博土木老哥…基本完工之后总结一下，和上次相比有很大的进步，项目结构简洁了很多，了解程度也高了不少，不像github的那个站点一样，大部分文件既不了解也不敢乱动。而且用上了命令行控制，对于文件之间的联动也清楚很多。我觉得主要归功于butterfly这个主题较为完备的指导，重点在于不管是站点的指南还是配置文件中的注释都有中文版本！（这个对我来说真的很重要，虽然主播从做题能力来说也不算英文苦手吧，但真的...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2025/12/31/2025-12-31-Eve-of-2026/" title="在2026之前"><img class="post-bg" src="/post-img/kanpai2025.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在2026之前"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/12/31/2025-12-31-Eve-of-2026/" title="在2026之前">在2026之前</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-31T15:23:45.000Z" title="发表于 2025-12-31 23:23:45">2025-12-31</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">曾经听过一种说法，熬夜是一种恐惧和逃避，不期待明天的到来，不希望今天就此结束；我想对于这跨年，也无外乎如是。一直以来我都奉行一个观点，不去期待就不会失望，这让我无论是对自己、他人抑或是未来之类的东西都缺乏相当的信心，总喜欢固守着当下微小的确幸，越发不想让未来不确定性的到来打破眼前的安宁。即使挣扎在生活的泥潭，也很难去相信什么明天会更好。 所以写下这篇标题的时候我还挺惊讶的，2025年的12月31日，我把这个日子写作2026的前夕，而不是2025的结尾。这样一个标题，是否代表着我对未来似乎没有那么失望了，是否说明，我也可以对明天有一些小小的期待呢？ 年终总结什么的就不做了，想了很多，但今年其实没干什么实事，想总结也无从下手。不过至少一点是明确的，今年的元旦，我大概能说出最真心实意的一句“新年好”。  </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2025/11/02/2025-11-02-just-walk/" title="只是走走"><img class="post-bg" src="/post-img/autumn.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="只是走走"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/11/02/2025-11-02-just-walk/" title="只是走走">只是走走</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-11-02T13:59:57.000Z" title="发表于 2025-11-02 21:59:57">2025-11-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">昨天晚上熬了个通宵，看江南写的《龙族》新本。说是新本其实也不新了，22年开始连载，去年年初完结的，但总归看得很开心，中间我很多次对自己说，明天还有早八，看完这点差不多该睡了，结果就是睡眠时间被压缩得越来越短，索性把课翘了来同时满足我看书和睡觉的欲望。等心满意足地把书页划到底部，晨光已经透过床帘漏进来，那个总是早起的室友也出门去了。   言归正传，等我从昏迷中清醒已经是正午，想着下午的课总不能继续翘了，于是艰难地从床上爬起准备下楼。到宿舍楼大门时我突然愣住了。我本来应该像往常一样跨上自行车，骑去顺路到教学楼的食堂，跟打饭阿姨完成今天一半的说话量，在角落找个座位，漫无目的地刷手机，耳机里播放着完全被食堂的嘈杂掩盖过去的音乐，在10分钟内完成我的进食后离开。但之后我又该去哪呢？回宿舍午觉也睡不着，对学习的热情也远不足以支持我到跑去教学楼自习到上课时间，总是机械地追求最高行动效率的逻辑被打破了，就像你把笼子里的小鸟放出来跟它说你现在自由了可以翱翔在广阔的天空了，可小鸟从出生就待在笼子里现在它只害怕得想要缩回去。我突然感觉很疲惫，沉重得好像要把我得肩膀压垮。于是我没有走向自行车的方向，在美...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2025/08/16/2025-08-16-drifing-in-Beijing/" title="北漂日记"><img class="post-bg" src="/post-img/those-three.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="北漂日记"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/08/16/2025-08-16-drifing-in-Beijing/" title="北漂日记">北漂日记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-08-16T07:26:33.000Z" title="发表于 2025-08-16 15:26:33">2025-08-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">某个周末，大抵是再也忍受不了了，我背上背包逃离了学校。 说是逃离，其实只不过是坐上巴士，去到前一天订好的酒店而已。我坐在公交车右侧的单人椅上，抱着书包，在十几分钟的车程里一直凝视着窗外。想象了一下从后面看到的自己的背影，在脑子里打个老电影的滤镜，颇有种北漂人命苦的感觉。   我在早上出发，中午入住。当即美美地睡了一觉。起床后那个下午我好像什么也没干，玩玩手机，写写作业，跟家人聊天掉了几颗小珍珠，享受着难得的独处时光。晚饭点了一顿相当丰盛的外卖，是南京大牌档的单人套餐，三四个菜才三四十块钱，相当划算。我觉得那个烤鸭味道还不错，之后某天还跟h君在外卖上点过，不过他似乎觉得调味太甜了。 房间的隔音不太好，窗外就是北四环，能听到汽车呼啸而过的声音。当时入秋还不深，房间里我开着空调，可印象中路旁的树已经是光秃秃的样子了。这是算是我实在难以喜欢上北方的原因之一，总是干枯的、凄凉的、有种发自灵魂的贫瘠。北京这个城市也不太讨人喜欢，总是灰蒙蒙的，为生计奔波的北漂一族在其中来回穿梭，教人看不到一点活力。兴许是发展得太早，北京的街景既不新的充满现代感；又不老的过分，让人还能仿佛安慰自己似的说出“啊，...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2025/07/04/2025-07-04-n-buna's-marrige/" title="沉溺于夏日"><img class="post-bg" src="http://p1.music.126.net/Mq_zDG7_BAGrctiWGesj2g==/109951171467601226.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沉溺于夏日"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/07/04/2025-07-04-n-buna's-marrige/" title="沉溺于夏日">沉溺于夏日</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-07-04T13:31:46.000Z" title="发表于 2025-07-04 21:31:46">2025-07-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">刚刚搞完自己房间桌面的布置，突然想起来早上看到拿不拿发了新歌。       当时还在驾校练车，匆匆几眼就刷过去了，只记得隐约看到“结婚”之类的字眼。于是马上去有关的视频底下把评论都翻了一遍，原来拿不拿真的结婚了，而且已经过去一段时间了。说来也奇怪，我听ヨルシカ其实是更喜欢suis的，对n-buna也不算很资深的粉丝，大概知道一点他当p主时和之后组夜鹿的经历，但知道他结婚之后，就一直对着屏幕傻笑，甚至有点热泪盈眶的味道了。   到底是什么让我能为别人的幸福如此感动呢？我不知道，我只知道我又疯狂地想听拿曲了。我听歌一直不怎么看歌词，对我来说人声更多是一种乐器，享受旋律就好了，这也许是我更喜欢日语歌的原因，然而拿不拿是个例外，即使听不懂只能看着翻译，我也想要了解他用音乐传达的东西。还是全职p主时《花と水飴、最終電車》、《月を歩いている》纤细的少女心思，一如敏感脆弱,有点文青病却又对音乐无比赤忱的少年；初组乐队写下的《負け犬にアンコールはいらない》将青年的迷茫、疑惑和带有几分自暴自弃的叛逆写进了摇滚，质问着没有答案的人生；当摇滚的狂热褪去，那个消极又厌世的影子在《月に吠える》的自由洒脱中...</div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">KKirei</div><div class="author-info-description">Something for nothing</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/NetizenKKirei"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/NetizenKKirei" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kzkzkcc@stu.pku.edu.cn" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/350295916" target="_blank" title="bilibili"><i class="fa-brands fa-bilibili"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 KKirei 的个人博客。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/07/23/20th/" title="生日蛋糕就是青春的墓碑"><img src="/post-img/birthday.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="生日蛋糕就是青春的墓碑"/></a><div class="content"><a class="title" href="/2026/07/23/20th/" title="生日蛋糕就是青春的墓碑">生日蛋糕就是青春的墓碑</a><time datetime="2026-07-23T16:13:08.698Z" title="发表于 2026-07-24 00:13:08">2026-07-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/06/15/%E7%94%9F%E6%B4%BB%E6%89%8D%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E5%8A%A1/" title="Life it is."><img src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Life it is."/></a><div class="content"><a class="title" href="/2026/06/15/%E7%94%9F%E6%B4%BB%E6%89%8D%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E5%8A%A1/" title="Life it is.">Life it is.</a><time datetime="2026-06-15T16:00:00.000Z" title="发表于 2026-06-16 00:00:00">2026-06-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/23/make-your-own-shell/" title="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享"><img src="/post-img/shell_cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享"/></a><div class="content"><a class="title" href="/2026/05/23/make-your-own-shell/" title="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享">为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享</a><time datetime="2026-05-23T16:00:00.000Z" title="发表于 2026-05-24 00:00:00">2026-05-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/02/days-in-Shanghai/" title="沪漂日记"><img src="/post-img/Hengshan_Wanping_Road.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沪漂日记"/></a><div class="content"><a class="title" href="/2026/05/02/days-in-Shanghai/" title="沪漂日记">沪漂日记</a><time datetime="2026-05-02T14:17:18.000Z" title="发表于 2026-05-02 22:17:18">2026-05-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/02/25/2026-02-25-create-blog/" title="Hexo➕github pages 的个人博客建站教程"><img src="https://img.heliar.top/file/1771991858690_36b90cc6f7ca133e0995d531e7046ad4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo➕github pages 的个人博客建站教程"/></a><div class="content"><a class="title" href="/2026/02/25/2026-02-25-create-blog/" title="Hexo➕github pages 的个人博客建站教程">Hexo➕github pages 的个人博客建站教程</a><time datetime="2026-02-25T03:52:02.000Z" title="发表于 2026-02-25 11:52:02">2026-02-25</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"><span class="card-category-list-name">技术分享</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B8%B8%E8%AE%B0/"><span class="card-category-list-name">游记</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/"><span class="card-category-list-name">随笔</span><span class="card-category-list-count">7</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 1.1em; color: #999">音乐</a> <a href="/tags/%E4%B8%8A%E6%B5%B7/" style="font-size: 1.1em; color: #999">上海</a> <a href="/tags/%E6%97%85%E8%A1%8C/" style="font-size: 1.5em; color: #99a9bf">旅行</a> <a href="/tags/%E5%B9%B4%E7%BB%88/" style="font-size: 1.1em; color: #999">年终</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 1.1em; color: #999">博客</a> <a href="/tags/Fish/" style="font-size: 1.1em; color: #999">Fish</a> <a href="/tags/Hexo/" style="font-size: 1.1em; color: #999">Hexo</a> <a href="/tags/macOS/" style="font-size: 1.1em; color: #999">macOS</a> <a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 1.1em; color: #999">日常</a> <a href="/tags/%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB/" style="font-size: 1.1em; color: #999">ヨルシカ</a> <a href="/tags/GitHub-Pages/" style="font-size: 1.1em; color: #999">GitHub Pages</a> <a href="/tags/%E7%BB%88%E7%AB%AF/" style="font-size: 1.1em; color: #999">终端</a> <a href="/tags/%E7%94%9F%E6%97%A5%E7%89%B9%E8%BE%91/" style="font-size: 1.1em; color: #999">生日特辑</a> <a href="/tags/Starship/" style="font-size: 1.1em; color: #999">Starship</a> <a href="/tags/%E5%8C%97%E4%BA%AC/" style="font-size: 1.1em; color: #999">北京</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/07/">
+            <span class="card-archive-list-date">
+              七月 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/06/">
+            <span class="card-archive-list-date">
+              六月 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/05/">
+            <span class="card-archive-list-date">
+              五月 2026
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/02/">
+            <span class="card-archive-list-date">
+              二月 2026
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/12/">
+            <span class="card-archive-list-date">
+              十二月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/11/">
+            <span class="card-archive-list-date">
+              十一月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/08/">
+            <span class="card-archive-list-date">
+              八月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/07/">
+            <span class="card-archive-list-date">
+              七月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-07-23T16:13:20.772Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-flex"><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">站内</div><div class="footer-flex-content"><a href="/" target="_blank" title="首页">首页</a><a href="/archives/" target="_blank" title="时间轴">时间轴</a><a href="/categories/" target="_blank" title="分类">分类</a><a href="/tags/" target="_blank" title="标签">标签</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">清单</div><div class="footer-flex-content"><a href="/music/" target="_blank" title="音乐">音乐</a><a href="/tour/" target="_blank" title="旅行">旅行</a><a href="/movie/" target="_blank" title="观影">观影</a><a href="/link/" target="_blank" title="友链">友链</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">链接</div><div class="footer-flex-content"><a href="https://github.com/NetizenKKirei" target="_blank" title="GitHub">GitHub</a><a href="https://space.bilibili.com/350295916" target="_blank" title="Bilibili">Bilibili</a><a href="https://hexo.io/zh-cn/" target="_blank" title="Hexo">Hexo</a><a href="https://butterfly.js.org/" target="_blank" title="Butterfly">Butterfly</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">赞助</div><div class="footer-flex-content"><div><img src='/img/alipay.jpg' alt='KKirei' width='100px' height='100px'></div></div></div></div></div><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By KKirei</span><span class="framework-info"><span class="footer-separator">|</span><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script>!function(){function cleanup(){document.querySelectorAll('.snackbar-container').forEach(function(el){el.style.opacity='0';el.style.pointerEvents='none';setTimeout(function(){el.remove()},350)})}function patch(){if(!window.btf||typeof window.btf.snackbarShow!=='function')return false;var original=window.btf.snackbarShow;window.btf.snackbarShow=function(text,showAction,duration){var timeout=Number(duration)||2000;original.call(this,text,showAction,duration);clearTimeout(window.__snackbarCleanupTimer);window.__snackbarCleanupTimer=setTimeout(cleanup,timeout+500)};return true}if(!patch())document.addEventListener('DOMContentLoaded',patch,{once:true})}();</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

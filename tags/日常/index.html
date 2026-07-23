@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>标签: 日常 | NetizenKKirei's Site</title><meta name="author" content="KKirei"><meta name="copyright" content="KKirei"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="KKirei 的个人博客，记录随笔、旅行、读书观影、音乐与技术分享。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NetizenKKirei&#39;s Site">
+<meta property="og:url" content="https://netizenkkirei.github.io/tags/%E6%97%A5%E5%B8%B8/index.html">
+<meta property="og:site_name" content="NetizenKKirei&#39;s Site">
+<meta property="og:description" content="KKirei 的个人博客，记录随笔、旅行、读书观影、音乐与技术分享。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://netizenkkirei.github.io/img/avatar.png">
+<meta property="article:author" content="KKirei">
+<meta property="article:tag" content="KKirei, Hexo, Butterfly, 个人博客, 随笔, 技术分享, 旅行, 音乐">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://netizenkkirei.github.io/img/avatar.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.jpg"><link rel="canonical" href="https://netizenkkirei.github.io/tags/%E6%97%A5%E5%B8%B8/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '标签: 日常',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'tag'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/alice1.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/tour/"><i class="fa-fw fas fa-sharp fa-solid fa-map-location-dot"></i><span> 旅行</span></a></li><li><a class="site-page child" href="/movie/"><i class="fa-fw fas fa-solid fa-camera-movie"></i><span> 观影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(/img/alice2.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">NetizenKKirei's Site</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/tour/"><i class="fa-fw fas fa-sharp fa-solid fa-map-location-dot"></i><span> 旅行</span></a></li><li><a class="site-page child" href="/movie/"><i class="fa-fw fas fa-solid fa-camera-movie"></i><span> 观影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">日常</h1></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="post_cover left"><a href="/2025/11/02/2025-11-02-just-walk/" title="只是走走"><img class="post-bg" src="/post-img/autumn.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="只是走走"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/11/02/2025-11-02-just-walk/" title="只是走走">只是走走</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-11-02T13:59:57.000Z" title="发表于 2025-11-02 21:59:57">2025-11-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">昨天晚上熬了个通宵，看江南写的《龙族》新本。说是新本其实也不新了，22年开始连载，去年年初完结的，但总归看得很开心，中间我很多次对自己说，明天还有早八，看完这点差不多该睡了，结果就是睡眠时间被压缩得越来越短，索性把课翘了来同时满足我看书和睡觉的欲望。等心满意足地把书页划到底部，晨光已经透过床帘漏进来，那个总是早起的室友也出门去了。   言归正传，等我从昏迷中清醒已经是正午，想着下午的课总不能继续翘了，于是艰难地从床上爬起准备下楼。到宿舍楼大门时我突然愣住了。我本来应该像往常一样跨上自行车，骑去顺路到教学楼的食堂，跟打饭阿姨完成今天一半的说话量，在角落找个座位，漫无目的地刷手机，耳机里播放着完全被食堂的嘈杂掩盖过去的音乐，在10分钟内完成我的进食后离开。但之后我又该去哪呢？回宿舍午觉也睡不着，对学习的热情也远不足以支持我到跑去教学楼自习到上课时间，总是机械地追求最高行动效率的逻辑被打破了，就像你把笼子里的小鸟放出来跟它说你现在自由了可以翱翔在广阔的天空了，可小鸟从出生就待在笼子里现在它只害怕得想要缩回去。我突然感觉很疲惫，沉重得好像要把我得肩膀压垮。于是我没有走向自行车的方向，在美...</div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">KKirei</div><div class="author-info-description">Something for nothing</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/NetizenKKirei"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/NetizenKKirei" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kzkzkcc@stu.pku.edu.cn" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/350295916" target="_blank" title="bilibili"><i class="fa-brands fa-bilibili"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 KKirei 的个人博客。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/07/23/20th/" title="生日蛋糕就是青春的墓碑"><img src="/post-img/birthday.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="生日蛋糕就是青春的墓碑"/></a><div class="content"><a class="title" href="/2026/07/23/20th/" title="生日蛋糕就是青春的墓碑">生日蛋糕就是青春的墓碑</a><time datetime="2026-07-23T16:13:08.698Z" title="发表于 2026-07-24 00:13:08">2026-07-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/06/15/%E7%94%9F%E6%B4%BB%E6%89%8D%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E5%8A%A1/" title="Life it is."><img src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Life it is."/></a><div class="content"><a class="title" href="/2026/06/15/%E7%94%9F%E6%B4%BB%E6%89%8D%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E5%8A%A1/" title="Life it is.">Life it is.</a><time datetime="2026-06-15T16:00:00.000Z" title="发表于 2026-06-16 00:00:00">2026-06-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/23/make-your-own-shell/" title="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享"><img src="/post-img/shell_cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享"/></a><div class="content"><a class="title" href="/2026/05/23/make-your-own-shell/" title="为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享">为你的MacOS打造现代化终端：Ghostty + Fish + Starship 配置分享</a><time datetime="2026-05-23T16:00:00.000Z" title="发表于 2026-05-24 00:00:00">2026-05-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/02/days-in-Shanghai/" title="沪漂日记"><img src="/post-img/Hengshan_Wanping_Road.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沪漂日记"/></a><div class="content"><a class="title" href="/2026/05/02/days-in-Shanghai/" title="沪漂日记">沪漂日记</a><time datetime="2026-05-02T14:17:18.000Z" title="发表于 2026-05-02 22:17:18">2026-05-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/02/25/2026-02-25-create-blog/" title="Hexo➕github pages 的个人博客建站教程"><img src="https://img.heliar.top/file/1771991858690_36b90cc6f7ca133e0995d531e7046ad4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo➕github pages 的个人博客建站教程"/></a><div class="content"><a class="title" href="/2026/02/25/2026-02-25-create-blog/" title="Hexo➕github pages 的个人博客建站教程">Hexo➕github pages 的个人博客建站教程</a><time datetime="2026-02-25T03:52:02.000Z" title="发表于 2026-02-25 11:52:02">2026-02-25</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"><span class="card-category-list-name">技术分享</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B8%B8%E8%AE%B0/"><span class="card-category-list-name">游记</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/"><span class="card-category-list-name">随笔</span><span class="card-category-list-count">7</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 1.1em; color: #999">音乐</a> <a href="/tags/%E4%B8%8A%E6%B5%B7/" style="font-size: 1.1em; color: #999">上海</a> <a href="/tags/%E6%97%85%E8%A1%8C/" style="font-size: 1.5em; color: #99a9bf">旅行</a> <a href="/tags/%E5%B9%B4%E7%BB%88/" style="font-size: 1.1em; color: #999">年终</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 1.1em; color: #999">博客</a> <a href="/tags/Fish/" style="font-size: 1.1em; color: #999">Fish</a> <a href="/tags/Hexo/" style="font-size: 1.1em; color: #999">Hexo</a> <a href="/tags/macOS/" style="font-size: 1.1em; color: #999">macOS</a> <a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 1.1em; color: #999">日常</a> <a href="/tags/%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB/" style="font-size: 1.1em; color: #999">ヨルシカ</a> <a href="/tags/GitHub-Pages/" style="font-size: 1.1em; color: #999">GitHub Pages</a> <a href="/tags/%E7%BB%88%E7%AB%AF/" style="font-size: 1.1em; color: #999">终端</a> <a href="/tags/%E7%94%9F%E6%97%A5%E7%89%B9%E8%BE%91/" style="font-size: 1.1em; color: #999">生日特辑</a> <a href="/tags/Starship/" style="font-size: 1.1em; color: #999">Starship</a> <a href="/tags/%E5%8C%97%E4%BA%AC/" style="font-size: 1.1em; color: #999">北京</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/07/">
+            <span class="card-archive-list-date">
+              七月 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/06/">
+            <span class="card-archive-list-date">
+              六月 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/05/">
+            <span class="card-archive-list-date">
+              五月 2026
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/02/">
+            <span class="card-archive-list-date">
+              二月 2026
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/12/">
+            <span class="card-archive-list-date">
+              十二月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/11/">
+            <span class="card-archive-list-date">
+              十一月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/08/">
+            <span class="card-archive-list-date">
+              八月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/07/">
+            <span class="card-archive-list-date">
+              七月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-07-23T16:13:20.772Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-flex"><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">站内</div><div class="footer-flex-content"><a href="/" target="_blank" title="首页">首页</a><a href="/archives/" target="_blank" title="时间轴">时间轴</a><a href="/categories/" target="_blank" title="分类">分类</a><a href="/tags/" target="_blank" title="标签">标签</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">清单</div><div class="footer-flex-content"><a href="/music/" target="_blank" title="音乐">音乐</a><a href="/tour/" target="_blank" title="旅行">旅行</a><a href="/movie/" target="_blank" title="观影">观影</a><a href="/link/" target="_blank" title="友链">友链</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">链接</div><div class="footer-flex-content"><a href="https://github.com/NetizenKKirei" target="_blank" title="GitHub">GitHub</a><a href="https://space.bilibili.com/350295916" target="_blank" title="Bilibili">Bilibili</a><a href="https://hexo.io/zh-cn/" target="_blank" title="Hexo">Hexo</a><a href="https://butterfly.js.org/" target="_blank" title="Butterfly">Butterfly</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">赞助</div><div class="footer-flex-content"><div><img src='/img/alipay.jpg' alt='KKirei' width='100px' height='100px'></div></div></div></div></div><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By KKirei</span><span class="framework-info"><span class="footer-separator">|</span><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script>!function(){function cleanup(){document.querySelectorAll('.snackbar-container').forEach(function(el){el.style.opacity='0';el.style.pointerEvents='none';setTimeout(function(){el.remove()},350)})}function patch(){if(!window.btf||typeof window.btf.snackbarShow!=='function')return false;var original=window.btf.snackbarShow;window.btf.snackbarShow=function(text,showAction,duration){var timeout=Number(duration)||2000;original.call(this,text,showAction,duration);clearTimeout(window.__snackbarCleanupTimer);window.__snackbarCleanupTimer=setTimeout(cleanup,timeout+500)};return true}if(!patch())document.addEventListener('DOMContentLoaded',patch,{once:true})}();</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
