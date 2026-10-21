@@ -5,7 +5,7 @@ categories: 随笔
 tags:
   - 音乐
   - ヨルシカ
-description: 写在 n-buna 结婚后。
+description: 拿不拿你怎么偷偷背着我们结婚了。
 cover: http://p1.music.126.net/Mq_zDG7_BAGrctiWGesj2g==/109951171467601226.jpg
 aplayer: true
 ---

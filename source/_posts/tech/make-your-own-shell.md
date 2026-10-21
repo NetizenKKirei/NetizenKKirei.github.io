@@ -7,8 +7,8 @@ tags:
   - 终端
   - Fish
   - Starship
-description: macOS 终端配置分享
-cover: /post-img/shell_cover.png
+description: Ghostty + Fish + Starship 配置分享
+cover: /images/posts/mac-terminal-setup/shell_cover.png
 ---
 
 
@@ -39,7 +39,7 @@ cover: /post-img/shell_cover.png
 此外还用到 **eza**（ls 的现代替代品）和 **MesloLGS Nerd Font Mono**（含图标字形的等宽字体）。
 
 最终效果预览
-![alt text](../post-img/shell.png)
+![alt text](/images/posts/mac-terminal-setup/shell.png)
 
 ---
 

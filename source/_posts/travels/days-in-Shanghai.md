@@ -6,7 +6,7 @@ tags:
   - 旅行
   - 上海
 description: 在上海 citywalk 的旅行记录
-cover: /post-img/Hengshan_Wanping_Road.png
+cover: /images/posts/shanghai-diary/Hengshan_Wanping_Road.png
 ---
 ## 心中上海
 这是一篇在上海的游记，之所以把标题起成“沪漂日记”，一个是为了和之前写的《北漂日记》对应，另一个是我觉得“漂”这个字很能描述我在上海的感受，我可以随波逐流、漫无目的地晃到随便哪个地方。我不去做任何思考，静静地看着这个城市将我的双脚带向某个角落。相比之下，北京所谓的“漂”，倒不如形容为溺水更加贴切，被那个毫无活力的城市压在水面之下，几乎没有喘息的空间。

@@ -6,9 +6,8 @@ tags:
   - 学业
   - 跑步
 description: 开学三周随便记
-cover: /img/default_cover.jpg
-top_img: /img/default_cover.jpg
-published: false
+cover: /images/site/default_cover.jpg
+top_img: /images/site/default_cover.jpg
 ---
 
 这学期也是开学三周了，第一周感觉状态不错，现在摆烂的心态又慢慢起来，还是决定写一些总结。
