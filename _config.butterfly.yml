@@ -27,7 +27,7 @@ menu:
   清单||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     旅行: /tour/ || fas fa-sharp fa-solid fa-map-location-dot
-    观影: /movie/ || fas fa-solid fa-camera-movie
+    观影: /movie/ || fas fa-film
   友链: /link/ || fas fa-link
 
 # --------------------------------------
@@ -602,7 +602,7 @@ math:
 search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
-  use:
+  use: local_search
   placeholder: 搜索文章标题或内容
 
   # Algolia 搜索
@@ -1124,7 +1124,7 @@ lightbox: medium_zoom
 # 系列
 series:
   # 是否启用系列
-  enable: false
+  enable: true
   # 按标题或日期排序
   orderBy: 'title'
   # 排序方式。1, asc 为升序; -1, desc 为降序
@@ -1267,7 +1267,9 @@ Open_Graph_meta:
 
 # 结构化数据
 # https://developers.google.com/search/docs/guides/intro-structured-data
-structured_data: true
+structured_data:
+  enable: true
+  alternate_name:
 
 # 添加供应商前缀以确保兼容性
 # 是否启用 CSS 前缀
