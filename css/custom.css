@@ -1,0 +1,10 @@
+/* 搜索弹窗使用普通分隔线，不继承全站 hr 的剪刀装饰。 */
+.search-dialog hr {
+  border: 0;
+  border-top: 1px solid var(--hr-border);
+  width: 100%;
+}
+
+.search-dialog hr::before {
+  display: none;
+}
