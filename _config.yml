@@ -57,6 +57,11 @@ prismjs:
   line_number: true
   tab_replace: ''
 
+# 允许文章直接用 ![说明](image.webp) 引用同名资源目录中的图片
+marked:
+  prependRoot: true
+  postAsset: true
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -110,4 +115,4 @@ deploy:
 # Aplayer 音乐播放器配置
 aplayer:
   meting: true # 开启 Meting 支持，可以直接用网易云、QQ音乐等平台的歌曲 ID
-  asset_inject: true # 自动在需要的页面注入 aplayer 的 css 和 js
+  asset_inject: false # 资源由 Butterfly 按文章注入，避免重复加载

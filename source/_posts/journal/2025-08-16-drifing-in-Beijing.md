@@ -6,7 +6,7 @@ tags:
   - 旅行
   - 北京
 description: 说是从学校逃亡其实就是窝囊地住了一晚上酒店
-cover: /images/posts/beijing-drifting/those-three.jpg
+cover: those-three.webp
 ---
 
 某个周末，大抵是再也忍受不了了，我背上背包逃离了学校。

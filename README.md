@@ -22,14 +22,13 @@ npm run deploy     # 生成并部署到 GitHub Pages
 ├── scaffolds/                # hexo new 使用的 Markdown 模板
 ├── source/
 │   ├── _posts/
-│   │   ├── journal/          # 随笔
-│   │   ├── tech/             # 技术文章
-│   │   └── travels/          # 游记
+│   │   ├── journal/          # 随笔及其同名资源目录
+│   │   ├── tech/             # 技术文章及其同名资源目录
+│   │   └── travels/          # 游记及其同名资源目录
 │   ├── _drafts/              # 草稿，不参与普通构建
 │   ├── _data/                # Butterfly 扩展数据，例如友链
 │   ├── images/
-│   │   ├── site/             # 头像、背景、favicon 等站点图片
-│   │   └── posts/<slug>/     # 各篇文章自己的图片
+│   │   └── site/             # 头像、背景、favicon 等站点图片
 │   ├── categories/           # 分类聚合页 /categories/
 │   ├── tags/                 # 标签聚合页 /tags/
 │   ├── link/                 # 友链页 /link/
@@ -50,8 +49,8 @@ npm run deploy     # 生成并部署到 GitHub Pages
 ## 新增内容
 
 1. 在对应栏目中新建 Markdown，例如 `source/_posts/journal/my-post.md`。
-2. 将图片放到 `source/images/posts/my-post/`。
-3. 在文章中以 `/images/posts/my-post/example.webp` 引用。
+2. 将图片放到文章旁边的同名目录，例如 `my-post/example.webp`。
+3. 在文章中以 `![说明](example.webp)` 引用；封面可直接写 `cover: example.webp`。
 4. 运行 `npm run server` 预览，发布前运行 `npm run clean && npm run build`。
 
 草稿放在 `source/_drafts/`；需要预览草稿时运行 `npx hexo server --drafts`。

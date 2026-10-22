@@ -6,8 +6,7 @@ tags:
   - Hexo
   - GitHub Pages
 description: 使用 Hexo、GitHub Pages 和 Butterfly 搭建个人博客的入门记录
-cover: /images/posts/hexo-blog-guide/penguin.jpg
-top_img: https://img.heliar.top/file/1771991871311_c38f393f68bd30c7982a10afbd7d2134.jpg
+cover: penguin.webp
 ---
 
 ## 软件与本地环境
@@ -38,7 +37,7 @@ scoop install nodejs
 
 ### 安装[hexo](https://hexo.io/zh-cn/)
 1. 桌面右键，点击 Open Git Bash here
-![alt text](/images/posts/hexo-blog-guide/-post1.png)
+![Scoop 搜索 Node.js](-post1.webp)
 2. 在打开的命令行界面输入
 ```bash
 npm install -g hexo-cli
@@ -67,7 +66,7 @@ hexo init
 
 ## 通过Github Pages上线个人博客
 1. 在浏览器登录自己的github账号，点击右上角+号，选择新建仓库
-![alt text](/images/posts/hexo-blog-guide/-post2.png)
+![Hexo 初始化结果](-post2.webp)
 2. 将仓库命名为`你的GitHub用户名.github.io`，可见性为`public`，创建仓库
 3. 由于github新仓库的默认分支命名为main ，而Hexo默认创建的是master分支，需在本地执行以下命令重命名
 ```bash

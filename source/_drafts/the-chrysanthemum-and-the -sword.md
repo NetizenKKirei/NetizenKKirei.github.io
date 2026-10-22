@@ -6,7 +6,7 @@ tags:
   - 读书
   - 日本
 description: 《菊与刀》读后感草稿。
-cover: /images/site/default_cover.jpg
+cover: /images/site/default_cover.webp
 ---
 
 # 当我们谈论日本时，我们在谈论什么？
