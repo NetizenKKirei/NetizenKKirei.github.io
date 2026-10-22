@@ -1279,7 +1279,7 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     # - <script src="xxxx"></script>
     - <script>!function(){function cleanup(){document.querySelectorAll('.snackbar-container').forEach(function(el){el.style.opacity='0';el.style.pointerEvents='none';setTimeout(function(){el.remove()},350)})}function patch(){if(!window.btf||typeof window.btf.snackbarShow!=='function')return false;var original=window.btf.snackbarShow;window.btf.snackbarShow=function(text,showAction,duration){var timeout=Number(duration)||2000;original.call(this,text,showAction,duration);clearTimeout(window.__snackbarCleanupTimer);window.__snackbarCleanupTimer=setTimeout(cleanup,timeout+500)};return true}if(!patch())document.addEventListener('DOMContentLoaded',patch,{once:true})}();</script>
